@@ -1,1 +1,1 @@
-# Matplotlib lectures are currently uploading... Only few left
+# Matplotlib lectures are currently uploading... Only a few left
