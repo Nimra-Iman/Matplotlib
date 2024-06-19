@@ -14,3 +14,4 @@ plt.stem(x,y,linefmt="-.", markerfmt="r+", bottom=2, basefmt="green", label="pyt
 # --- use_line_collection=False
 plt.legend()
 plt.show()
+

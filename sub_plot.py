@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # x=["a","b","c","d"]
-# y=[1,2,3,4]
+# y=[1,2,3,4]         
 # plt.bar(x,y)
 
 

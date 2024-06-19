@@ -50,8 +50,9 @@ plt.title("Relationship between languages and their popularity")
 
 plt.bar(p,y,width=w,label="popularity") 
 plt.bar(p1,z,width=w,label="popularity1")
-plt.xticks(p+w/2,x , rotation=20) #p+w means position, x, location s hm un x_axis k parameters ko rotated show kr 
-# skty hn
+plt.xticks(p+w/2, x , rotation=20) #p+w means position yani ticks khan pr show hon, 
+# x is liye likha ta k un digits ki jga pr names show ho jo hm x list m daaly huy hn,
+#  location s hm un x_axis k parameters ko rotated show kr skty hn
 # ,,, is liye kr rhyn hn k hm chahty hn k x_axis pr numbers ki bijay
 # vhi c,c++ etc shoe ho p+w ko 2 s divide is liye kia ta k y names dono bars k drmian m show hon
 
@@ -68,3 +69,10 @@ plt.show()
 plt.barh(x,y)
 plt.show()
 
+
+# barh error show kry ga agr hm n width=___ dia ho to, hmy height=___ dena h in case of barh
+# like below:::
+# plt.barh(p,y,height=w,color="green",edgecolor="black",linestyle=":",linewidth=3,label="wikipedia")
+# plt.barh(p1,z,color="red",height=w)
+# plt.legend()
+# plt.show()

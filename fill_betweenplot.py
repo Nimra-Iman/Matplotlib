@@ -1,4 +1,5 @@
-# kisi bhi graph k ander k area ka color fill krny k liye fill_between ka use krty hn
+# kisi bhi graph k ander k area ka color fill krny k liye fill_between ka use krty hn,
+# yani graph k kisi region ko alag s show kr skyn.
 import matplotlib.pyplot as plt
 import numpy as np
 time=np.array([2,3,4,5,6])
