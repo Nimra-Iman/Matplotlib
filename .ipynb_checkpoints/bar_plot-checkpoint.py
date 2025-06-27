@@ -76,4 +76,3 @@ plt.show()
 # plt.barh(p1,z,color="red",height=w)
 # plt.legend()
 # plt.show()
-
