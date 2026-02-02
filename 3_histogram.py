@@ -31,7 +31,7 @@ li=[0,5,10,15]
 
 
 
-# ----------------------------------------  range 
+# ----------------------------------------  range  
 # isi trah range parameter bhi de skty hn, histogram m range parameter 3rd parameter hota h
 # and bins 2nd parametr hota h, m yhan bins ko auto kr rhi, agar bins m "auto" ya koi
 # single integer pass na kia jay to range parameter ignore ho jata h
@@ -67,7 +67,7 @@ b=[10,20,30,40,50,60]
 
 
 # -----------------------------  histtype (can be "step", "stepfilled", "barstacked","bar")
-# plt.hist(datas,bins=b, histtype="bar",edgecolor="black")
+# plt.hist(datas,bins=b, histtype="stepfilled",edgecolor="black")
 # plt.show()
 
 
@@ -89,7 +89,7 @@ b=[10,20,30,40,50,60]
 # --------------  divide graph via line
 plt.hist(datas,bins=b,edgecolor="black")
 plt.axvline(45,color="green",label="parted data") #ab dataset m jhan pr 45 number ay ga vhan ek green line 
-# show ho gi
-plt.legend()
-plt.grid()  #to show grid
+# # show ho gi
+# plt.legend()
+# plt.grid()  #to show grid
 plt.show()

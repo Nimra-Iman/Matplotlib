@@ -9,8 +9,8 @@ data=[20,10,30,60,70,40,50]
 
 # (notch = True) to chnage the shape of box, yani box ki bijay V shape kuch show ho
 # (vert = False) to show orizontal box plot.
-# plt.boxplot(data, notch=True, vert=False)
-# plt.show()
+plt.boxplot(data, notch=True, vert=False)
+plt.show()
 
 
 # (widths) to increase width of box. default width is 0.2
@@ -59,6 +59,6 @@ datas=[10,20,30,40,50,60,70,170]
 # plt.show()   #esa krny s dono ekdoosry k uper show hon gy, hmy esa nhi krna, is liye
 # following is true
 
-y=[data, datas]
-plt.boxplot(y)
-plt.show()
+# y=[data, datas]
+# plt.boxplot(y)
+# plt.show()

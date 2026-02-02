@@ -4,8 +4,8 @@ x=[10,20,30,40]  #yani meri 100% salary m s 10% saving hoti h, 20% food m kharch
 y=["saving","food","bills","rent"]
 col=["r","b","g","y"]
 plt.title("pie graph showing expenditures")
-# plt.pie(x, labels=y, colors=col)
-# plt.legend(loc=2) #loc means location, where you wanna place label
+plt.pie(x, labels=y, colors=col)
+plt.legend(loc=3) #loc means location, where you wanna place label
 # plt.show()
 
 
@@ -94,8 +94,8 @@ ex=[0.2,0.0,0.0,0.0]  # baki sab 0.0 hn but saving ka 0.2 h, yani saving vala pa
 
 
 # ANOTHER WAY TO CREATE DONUT CHART:
-plt.pie(x, labels=y, colors=col,radius=1)
-cr=plt.Circle(xy=(0,0),radius=0.5,facecolor="white") 
-plt.gca().add_artist(cr)
+# plt.pie(x, labels=y, colors=col,radius=1)
+# cr=plt.Circle(xy=(0,0),radius=0.5,facecolor="white") 
+# plt.gca().add_artist(cr)
 plt.show()
 
