@@ -9,8 +9,8 @@ plt.show()
 
 # (notch = True) to chnage the shape of box, yani box ki bijay V shape kuch show ho
 # (vert = False) to show orizontal box plot.
-plt.boxplot(data, notch=True, vert=False)
-plt.show()
+# plt.boxplot(data, notch=True, vert=False)
+# plt.show()
 
 
 # (widths) to increase width of box. default width is 0.2

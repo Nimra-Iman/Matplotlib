@@ -21,12 +21,12 @@ col=["r","pink","y","g"]
 # increase krty hn,  linestyle ko use krty hn agar bar k edges solid ki bijay dotted krny
 # hon to
 
-# plt.bar(x,y, align=0.4) #graph ki opacity ko km krna h to alpha ko use krty hn,
+# plt.bar(x,y,alpha=0.4) #graph ki opacity ko km krna h to alpha ko use krty hn,
 # alpha ki value 0-1 hoti h
 
 # plt.bar(x,y,label="popularity") #agar ap ko koi label bhi show krna ho
 # plt.legend() #label tab tak show nhi ho ga jab tak ap plt.legend() ko call nhi kro gy
-# plt.legend("popularity") #y 2nd method h label lgany ka
+# plt.legend("popularity") y 2nd method h label lgany ka
 
 
 #!!!!!!!!!!! how to create multiple bar graphs:  !!!!!!!!!!!!!!!!!!!!!!
@@ -61,12 +61,12 @@ plt.xticks(p+w/2, x , rotation=20) #p+w means position yani ticks khan pr show h
 # Syntax:
 # matplotlib.pyplot.xticks(ticks=None, labels=None, **kwargs)
 
-# plt.legend()
-# plt.show()
+plt.legend()
+plt.show()
 
 
 #  !!!!!!!!!!!!!!  horizontal bar graph  !!!!!!!!!!!!!!!!!!!!
-# plt.barh(x,y)
+plt.barh(x,y)
 plt.show()
 
 
@@ -76,4 +76,3 @@ plt.show()
 # plt.barh(p1,z,color="red",height=w)
 # plt.legend()
 # plt.show()
-
