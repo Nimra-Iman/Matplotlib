@@ -17,6 +17,8 @@
 
 #                       MATPLOTLIB
 # it was developed in 2002 by john hunter. matplotlib can priovide 2D and 3D graphs
+# It is suitable to show visulaisation for lists and numpy arrays while seabvorn is more 
+# suitable for pandas dataframes 
 
 # LINEAR PLOT
 # SCATTER PLOT

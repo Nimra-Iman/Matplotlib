@@ -1,6 +1,13 @@
 # stakeplot is useful when the individual data values and additionally their cumulative 
 # value are of interest.
 
+
+# Area plots are best used to visualize trends over time, focusing on volume, 
+# magnitude, and cumulative totals rather than just precise data points. They are ideal 
+# for showing part-to-whole relationships, such as how individual categories contribute 
+# to a total over a continuous interval (e.g., monthly sales, website traffic
+
+
 # You can see not only the growth in traffic but also how each source adds up to the total.
 import matplotlib.pyplot as plt
 x=[1,2,3,4,5]
