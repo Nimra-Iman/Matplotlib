@@ -8,6 +8,9 @@
 # to a total over a continuous interval (e.g., monthly sales, website traffic
 
 
+# FOR TIME SERIES DATA, LINE PLOT IS MOST IMPORTANT AND IS CONSIDERED AS STANDARD BUT
+# AREA PLOT ALSO BE USED BUT ESPECIALLY WHEN WE HAVE TO SHOW CUMULATIVE EFFECT
+
 # You can see not only the growth in traffic but also how each source adds up to the total.
 import matplotlib.pyplot as plt
 x=[1,2,3,4,5]
